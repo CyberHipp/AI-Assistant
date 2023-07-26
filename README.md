@@ -4,13 +4,13 @@ The AI-Assistant project aims to build an intelligent system that integrates sev
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [ATOM Framework](#atom-framework)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
+- [Overview](#overview)
+- [ATOM Framework](#atom-framework)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Overview
 
@@ -22,20 +22,27 @@ The ATOM Framework forms the core of the AI-Assistant. It defines a set of princ
 
 ## Installation
 
-Instructions on setting up your environment to use our codebase.
+Follow these steps to set up your environment to use our codebase:
+
+1. Clone the repository: `git clone https://github.com/user/AI-Assistant.git`
+2. Navigate to the project directory: `cd AI-Assistant`
+3. Install the dependencies: `pip install -r requirements.txt`
+4. Install the package: `python setup.py install`
+
+Note: This project requires Python 3.6 or higher.
 
 ## Usage
 
-Instructions on how to use the AI-Assistant, including examples.
+Instructions on how to use the AI-Assistant will be provided soon, including examples.
 
 ## Contributing
 
-Information on how to contribute to the AI-Assistant project, including coding standards and the process for submitting pull requests.
+Information on how to contribute to the AI-Assistant project, including coding standards and the process for submitting pull requests, will be provided soon.
 
 ## License
 
-Information about the project's license.
+This project is licensed under the MIT License.
 
 ## Contact
 
-Information on how to get in contact with the project team, report bugs, or suggest features.
+For any questions, bug reports, or feature suggestions, please open an issue on our [GitHub](https://github.com/user/AI-Assistant/issues).
