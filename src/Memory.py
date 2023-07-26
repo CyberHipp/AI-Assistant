@@ -1,5 +1,4 @@
 # Memory.py
-# Memory.py
 
 from collections import deque
 from sentence_transformers import SentenceTransformer
