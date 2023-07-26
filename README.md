@@ -45,4 +45,4 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions, bug reports, or feature suggestions, please open an issue on our [GitHub](https://github.com/user/AI-Assistant/issues).
+For any questions, bug reports, or feature suggestions, please open an issue on our [GitHub](https://github.com/CyberHipp/AI-Assistant/issues).
