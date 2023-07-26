@@ -24,8 +24,8 @@ The ATOM Framework forms the core of the AI-Assistant. It defines a set of princ
 
 Follow these steps to set up your environment to use our codebase:
 
-1. Clone the repository: `git clone https://github.com/user/AI-Assistant.git`
-2. Navigate to the project directory: `cd AI-Assistant`
+1. Clone the repository: `git clone https://github.com/CyberHipp/AI-Assistant.git`
+2. Navigate to the project directory: cd AI-Assistant`
 3. Install the dependencies: `pip install -r requirements.txt`
 4. Install the package: `python setup.py install`
 
