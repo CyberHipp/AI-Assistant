@@ -1,29 +1,16 @@
-#import tensorflow as tf
-#from tensorflow.keras.models import Model
-#from tensorflow.keras.layers import Input, Dense
-#
-#class AIModel:
-#    def __init__(self, model):
-#        self.model = model
-#
-#    def generate_response(self, prompt):
-#        # Generate a response given a prompt
-#        # This function will need to be fleshed out with the specifics of how the AI model generates a response.
-#        # This could involve pre-processing the prompt, feeding the prompt to the model, post-processing the model's output, etc.
-#        # Since this is highly dependent on the specifics of the AI model being used, it's left as a placeholder here.
-#        return self.model.generate(prompt)
 # AI_Model.py
 
 import os
 import openai
 import re
 import spacy
-
-class Config:
-    MAX_LENGTH = 1024
-    PROMPT_PREFIX = "Please write a response to the following: "
+import tensorflow as tf
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Dense
 
 class AIModel:
+    def __init__(self, model):
+        self.model = model
 
     def __init__(self, model_engine="text-davinci-003"):
         openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -87,3 +74,15 @@ class AIModel:
                 detokenized_response = re.sub(rf"\b{ent.text}\b", ent.text.capitalize(), detokenized_response)
 
         return detokenized_response
+
+    def generate_response(self, prompt):
+        # Generate a response given a prompt
+        # This function will need to be fleshed out with the specifics of how the AI model generates a response.
+        # This could involve pre-processing the prompt, feeding the prompt to the model, post-processing the model's output, etc.
+        # Since this is highly dependent on the specifics of the AI model being used, it's left as a placeholder here.
+        return self.model.generate(prompt)
+
+class Config:
+    MAX_LENGTH = 1024
+    PROMPT_PREFIX = "Please write a response to the following: "
+
