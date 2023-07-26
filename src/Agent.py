@@ -1,3 +1,5 @@
+# Agent.py
+
 class Agent:
     def __init__(self, experts):
         self.experts = experts
@@ -22,6 +24,15 @@ class Agent:
         return response
 
     def choose_expert(self, prompt):
-        # Choose an expert based on the prompt
-        # This could involve complex logic like understanding the domain of the prompt
+        # Define a mapping of keywords/topics to experts. The Agent scans the prompt for those keywords to select an expert.
+        # We will need to define this mapping based on the specialties of the experts.
+        keyword_to_expert_mapping = {}
+
+        for keyword, expert in keyword_to_expert_mapping.items():
+            if keyword in prompt:
+                return expert
+
+        # If no expert is found via keyword matching, default to a generalist expert
+        # This could be enhanced to use more advanced routing methods later
+        return self.experts[0]
         pass
